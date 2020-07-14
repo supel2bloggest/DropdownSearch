@@ -1,0 +1,92 @@
+.dropbtn {
+  background-color: #fff;
+  color: #4a4a4a;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  height: 3.5rem;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #ddd;
+}
+
+.dropdownsearch {
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 15px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.dropdownsearch:focus {
+  outline: 3px solid #eee;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #ddd;
+  top: 0;
+  z-index: 1;
+}
+
+.dropdown-item > div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #bbb;
+}
+
+.dropdown-item > div:hover {
+  background-color: #187be4;
+  color: white;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.new-item {
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  overflow: auto;
+  max-height: 200px;
+  cursor: pointer;
+  z-index: 100;
+  bottom: 0px;
+  padding: 1rem;
+  border: 1px solid #cacaca;
+}
+
+.new-item:hover {
+  background-color: #978aed;
+  color: #fff;
+}
